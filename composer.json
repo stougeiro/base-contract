@@ -1,0 +1,44 @@
+{
+    "name": "stougeiro/base-contract",
+    "description": "",
+    "type": "library",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "stougeiro",
+            "email": "sidneytougeiro@gmail.com"
+        }
+    ],
+    "keywords": [
+    ],
+    "support": {
+        "issues": "https://github.com/stougeiro/base-contract/issues",
+        "source": "https://github.com/stougeiro/base-contract"
+    },
+    "funding": [
+        {
+            "type": "buymeacoffee",
+            "url": "https://www.buymeacoffee.com/stougeiro"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sourcerer\\Contract\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "stougeiro/immutable": "^2.0",
+        "stougeiro/http-contract": "^4.1",
+        "stougeiro/router-contract": "^2.1",
+        "stougeiro/container-contract": "^4.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.2"
+    },
+    "scripts": {
+        "stan": "vendor/bin/phpstan"
+    }
+}
