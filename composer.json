@@ -35,10 +35,24 @@
         "stougeiro/router-contract": "^2.1",
         "stougeiro/container-contract": "^4.0"
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "require-dev": {
-        "phpstan/phpstan": "^2.2"
+        "phpstan/phpstan": "^2.2",
+        "pestphp/pest": "^3.8",
+        "stougeiro/container": "^4.0",
+        "stougeiro/http": "^2.2"
     },
     "scripts": {
-        "stan": "vendor/bin/phpstan"
+        "stan": "vendor/bin/phpstan",
+        "test": "vendor/bin/pest"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     }
 }
