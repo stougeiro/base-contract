@@ -30,7 +30,7 @@ interface RoutingMiddlewareCollectionInterface
      * The module and controller level middlewares of a controller, ready to
      * run: the module ones ('*') come before the controller ones.
      *
-     * @param string $controller
+     * @param class-string<ControllerInterface> $controller
      * @return array<int, MiddlewareInterface>
      */
     public function forController(string $controller): array;
