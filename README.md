@@ -15,6 +15,7 @@ views or transport implementation.
   `OPTIONS`/`Allow` behaviour;
 - `RoutingMiddlewareCollectionInterface` for module and controller middleware maps;
 - `HttpException`, an exception that already carries an HTTP status and headers;
+- `ErrorRendererInterface` for application-specific error response rendering;
 - `ResultInterface`, `ActionServiceInterface` and `CheckServiceInterface`;
 - `LogInterface`.
 
