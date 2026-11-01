@@ -1,6 +1,6 @@
 {
     "name": "stougeiro/base-contract",
-    "description": "",
+    "description": "Runtime-agnostic contracts and abstract bases for modular HTTP applications.",
     "type": "library",
     "minimum-stability": "stable",
     "prefer-stable": true,
@@ -12,6 +12,13 @@
         }
     ],
     "keywords": [
+        "php",
+        "contracts",
+        "module",
+        "http",
+        "controller",
+        "middleware",
+        "microframework"
     ],
     "support": {
         "issues": "https://github.com/stougeiro/base-contract/issues",
